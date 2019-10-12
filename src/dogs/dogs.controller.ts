@@ -13,7 +13,7 @@ export class DogsController {
   }
   @Get('2')
   get(@Res() res: Response) {
-    return res.sendFile('index.html',{root:'./src/dogs'});
+    return res.sendFile('dogs.html',{root:'./src/html'});
   }
 
 }
